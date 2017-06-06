@@ -12,3 +12,5 @@ repositories {
     jcenter()
 }
 
+group = 'com.netflix.nebula.test'
+version = '0.1.0'
