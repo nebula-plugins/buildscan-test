@@ -1,5 +1,5 @@
 plugins {
-    id "java"
+    id "java-library"
     id "com.gradle.build-scan" version "1.7.4"
 }
 
@@ -10,6 +10,10 @@ buildScan {
 
 repositories {
     jcenter()
+}
+
+dependencies {
+    testImplementation "junit:junit:4.12"
 }
 
 group = 'com.netflix.nebula.test'
